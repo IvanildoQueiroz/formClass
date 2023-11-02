@@ -6,9 +6,9 @@
 - Utilização de *Getter e setter*
 
 # Linguagens
-- **HTML** <img src="./icons/HTML.svg" width="48">        |
-- **CSS** <img src="./icons/CSS.svg" width="48">   
-- **Javascript** <img src="./icons/JavaScript.svg" width="48">
+- **HTML** <img src="./icons/HTML.svg" width="38">        |
+- **CSS** <img src="./icons/CSS.svg" width="38">   
+- **Javascript** <img src="./icons/JavaScript.svg" width="38">
 
 
 ## Info
