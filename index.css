@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    background-image: linear-gradient(to right,#0583F2,#0487D9,#04B2D9,#04BFBF,#00DDB1);
+}
+form{
+    text-align: center;
+    width: max(450px, 30%);
+    margin: 40px auto;
+    padding-top: 20px;
+    border: 2px solid black;
+    background-color: rgba(239, 245, 247, 0.849);
+    border: none;
+    box-shadow: 10px 20px 50px;
+}
+h1{
+    font: normal bolder 30px arial;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 20px 40px;
+   
+}
+.dataUsers{
+    text-align: left;
+    font: normal 17px arial;
+    
+}
+
+input,label{
+    background-color: transparent;
+    border: none;
+    color: rgb(105, 106, 107);
+    font-size: 20px;
+    transition: .5s;
+}
+input{
+    width: 100%;
+    border-bottom:3px solid #00DDB1;
+    outline: none;
+    font-size: 15px;
+   
+}
+button{
+    cursor: pointer;
+    width: 80%;
+    height: 45px;
+    margin: 0 auto;
+    font: normal 400 17px arial;
+    background-image: linear-gradient(to right,#0583F2,#0487D9,#04B2D9,#04BFBF,#00DDB1);
+    border: none;
+    color: azure;
+    transition:all 2s ease-out;
+}
+.saveData{
+    display: flex;
+}
+#saveDataAcess{
+    border: 3px solid #00DDB1;
+    background-color: #00DDB1;
+    width: 20px;
+}
+p{
+    display: inline;
+    width: 100%;
+    font: normal 15px arial;
+}
+.createAccess{
+    font: normal 300 18px arial;
+}
+a{
+    text-decoration: none;
+    color: #03829e;
+    font: normal 300 18px arial;
+}
+.dataUsers:hover > input{
+    padding: 5px 10px;
+    font-size: 21px;
+}
+.dataUsers:hover > label{
+    padding: 5px 10px;
+    font-size: 16px;
+    color: rgb(15, 97, 52);
+}
+button:hover{
+    background-image: linear-gradient(to right,#033058,#04619b,#03829e,#038888,#028369);
+   
+}
+.error{
+    display: block;
+    color: red;
+    font: italic 300 15px arial;
+}
